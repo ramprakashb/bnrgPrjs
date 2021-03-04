@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <!-- Dialog Box for first user input -->
+        <EditText
+            android:id="@+id/editText_op1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/op1hint"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            />
+        <!-- Dialog Box for second user input -->
+        <EditText
+            android:id="@+id/editText_op2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/op2hint"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            />
+        <!-- Text view to display the result label -->
+        <TextView
+            android:id="@+id/textView_ResultLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:text="@string/result_label_text"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textStyle="bold"
+            />
+        <!-- Text view to display the output result -->
+        <TextView
+            android:id="@+id/textView_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:layout_weight="1"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="@android:color/holo_green_dark"
+            tools:text="Calculated Value"
+            />
+        <!-- Button to perform addition operation  -->
+        <Button
+            android:id="@+id/button_op_plus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/op_plus_text"
+            android:textSize="18dp"
+            />
+        <!-- Button to perform subtraction operation  -->
+        <Button
+            android:id="@+id/button_op_minus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/op_minus_text"
+            android:textSize="18dp"
+            />
+        <!-- Button to perform multiplication operation  -->
+        <Button
+            android:id="@+id/button_op_mult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/op_mult_text"
+            android:textSize="18dp"
+            />
+        <!-- Button to perform division operation  -->
+        <Button
+            android:id="@+id/button_op_div"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/op_div_text"
+            android:textSize="18dp"
+            />
+        <!-- Button to perform percentage operation  -->
+        <Button
+            android:id="@+id/button_op_pct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/op_pct_text"
+            android:textSize="18dp"
+            />
+        <!-- Button to perform square root operation  -->
+        <Button
+            android:id="@+id/button_op_sqrt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/op_sqrt_text"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

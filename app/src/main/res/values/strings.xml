@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="editText_op1">UserInput1</string>
+    <string name="editText_op2">UserInput2</string>
+    <string name="textView_ResultLabel">Result</string>
+    <string name="textView_textView_result">Output</string>
+    <string name="textView_button_op_plus">Add</string>
+    <string name="textView_button_op_minus">Sub</string>
+    <string name="textView_button_op_mult">Mult</string>
+    <string name="textView_button_op_div">Div</string>
+    <string name="textView_button_op_pct">Perc</string>
+    <string name="textView_button_op_sqrt">sqrt</string>
+    <string name="op1hint">Enter Operand 1 in Decimal (Eg: 1.0 )</string>
+    <string name="op2hint">Enter Operand 2 in Decimal (Eg: 1.0 )</string>
+    <string name="result_label_text">Result</string>
+    <!-- Symbol plus will be displayed in the output screen -->
+    <string name="op_plus_text">+</string>
+    <!-- Symbol minus will be displayed in the output screen -->
+    <string name="op_minus_text">-</string>
+    <!-- Symbol multiplication will be displayed in the output screen -->
+    <string name="op_mult_text">*</string>
+    <!-- Symbol division will be displayed in the output screen -->
+    <string name="op_div_text">/</string>
+    <!-- Symbol percentage will be displayed in the output screen -->
+    <string name="op_pct_text">%</string>
+    <!-- Symbol square root will be displayed in the output screen -->
+    <string name="op_sqrt_text"> \u221a </string>
+</resources>
